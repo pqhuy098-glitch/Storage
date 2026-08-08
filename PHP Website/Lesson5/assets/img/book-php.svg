@@ -1,0 +1,4 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='420' viewBox='0 0 600 420'>
+<rect width='600' height='420' fill='#f6f8fa'/><rect x='40' y='40' width='520' height='340' rx='24' fill='#dbeafe' stroke='#1f6feb' stroke-width='8'/>
+<text x='300' y='210' font-family='Arial' font-size='42' text-anchor='middle' fill='#1f6feb'>Book</text>
+</svg>
