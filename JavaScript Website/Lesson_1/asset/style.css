@@ -1,0 +1,21 @@
+.page-1 p {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+
+.page-2 p {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+.btn {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px gray;
+    text-decoration: none;
+    padding: 10px;
+}
