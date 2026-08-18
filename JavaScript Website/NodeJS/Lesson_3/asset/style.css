@@ -64,11 +64,14 @@
 }
 
 .btn {
-    margin-top: 5px;
+    display: inline-block;
+    margin-top: 10px;
     width: fit-content;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #e5e7eb;
+    text-decoration: none;
+    color: black;
 }
 
 .btn:hover {

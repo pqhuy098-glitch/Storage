@@ -8,10 +8,13 @@ const server = http.createServer((req, res) => {
     if (req.url === '/' || req.url === '/view/product/list.html'){
         filePath = path.join(__dirname, 'view', 'product', 'list.html');
     }
-    else if (req.url === '/controller/navbar.js'){
+    else if (req.url.startsWith('/view/product/detail.html')) {
+        filePath = path.join(__dirname, 'view', 'product', 'detail.html');
+    }
+    else if (req.url.includes('navbar.js')){
         filePath = path.join(__dirname, 'controller', 'navbar.js');
     }
-    else if (req.url === '/asset/style.css') {
+    else if (req.url.includes('style.css')) {
         filePath = path.join(__dirname, 'asset', 'style.css');
     }
     else if (req.url === '/data/products.js') {

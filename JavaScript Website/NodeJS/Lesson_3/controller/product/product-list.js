@@ -10,8 +10,7 @@ products.forEach(product => {
             <h3><strong>${product.name}</strong></h3>
             <p><strong>Category:</strong> ${product.category}</p>
             <p><strong>Price:</strong> ${product.price}</p>
-            <button class="btn">More detail</button>
-            <button class="btn">Order</button>
+            <a class="btn" href="../view/product/detail.html?id=${product.id}">More detail</a>
         `;
     getProduct.appendChild(div);
 })
