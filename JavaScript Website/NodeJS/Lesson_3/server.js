@@ -5,10 +5,13 @@ const fs = require('fs');
 const server = http.createServer((req, res) => {
     let filePath;
 
-    if (req.url === '/' || req.url === '/list.html'){
+    if (req.url === '/' || req.url === '/view/product/list.html'){
         filePath = path.join(__dirname, 'view', 'product', 'list.html');
     }
-    else if (req.url === '/style.css') {
+    else if (req.url === '/controller/navbar.js'){
+        filePath = path.join(__dirname, 'controller', 'navbar.js');
+    }
+    else if (req.url === '/asset/style.css') {
         filePath = path.join(__dirname, 'asset', 'style.css');
     }
     else if (req.url === '/data/products.js') {
@@ -17,10 +20,15 @@ const server = http.createServer((req, res) => {
     else if (req.url === '/controller/product/product-list.js') {
         filePath = path.join(__dirname, 'controller', 'product', 'product-list.js');
     }
+    else {
+        res.end("The website not found");
+        return;
+    }
 
     fs.readFile(filePath, 'utf-8', (err, data) => {
         if (err){
             res.end("The website not found");
+            return;
         }
         res.end(data);
     });

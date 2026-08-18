@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+
+.nav a {
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.product-list {
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    margin: 40px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.product-list h1 {
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 280px;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(105%)
+}
+
+.card p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 280px;
+}
+
+.card h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 280px;
+}
+
+.btn {
+    margin-top: 5px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+}

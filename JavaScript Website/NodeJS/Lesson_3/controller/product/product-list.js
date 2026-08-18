@@ -6,10 +6,12 @@ products.forEach(product => {
 
     div.innerHTML = 
         `
-            <p>${product.id}</p>
-            <p>${product.name}</p>
-            <p>${product.category}</p>
-            <p>${product.price}</p>
+            <p>#${product.id}</p>
+            <h3><strong>${product.name}</strong></h3>
+            <p><strong>Category:</strong> ${product.category}</p>
+            <p><strong>Price:</strong> ${product.price}</p>
+            <button class="btn">More detail</button>
+            <button class="btn">Order</button>
         `;
     getProduct.appendChild(div);
 })
