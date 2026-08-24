@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 50px;
+    padding-top: 0;
+
+}
+
+.product-each-category {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-each-category h1 {
+    margin-bottom: 20px;
+}
+
+.show-card {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
