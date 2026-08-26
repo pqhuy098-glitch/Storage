@@ -5,3 +5,24 @@ const doubled = array.map(arr => {
 });
 
 console.log(doubled);
+
+const user = [
+    {
+        name: 'basic laptop',
+        category: 'laptop'
+    },
+    {
+        name: 'pro laptop',
+        category: 'laptop'
+    },
+    {
+        name: 'basic phone',
+        category: 'phone'
+    },
+];
+
+const resutl = user.map(u => {
+    return u.name;
+});
+
+console.log(resutl);

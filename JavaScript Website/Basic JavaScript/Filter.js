@@ -4,3 +4,24 @@ const filtered = array.filter(arr => {
 });
 
 console.log(filtered);
+
+const user = [
+    {
+        name: 'basic laptop',
+        category: 'laptop'
+    },
+    {
+        name: 'pro laptop',
+        category: 'laptop'
+    },
+    {
+        name: 'basic phone',
+        category: 'phone'
+    },
+];
+
+const result = user.filter(u => {
+   return u.category === 'laptop'; 
+});
+
+console.log(result);
