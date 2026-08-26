@@ -8,5 +8,7 @@ console.log(array[0]);
 console.log(array[2]);
 
 array.push("Watermelon");
+console.log(array);
 
-console.log(array[3]);
+array.pop();
+console.log(array);
