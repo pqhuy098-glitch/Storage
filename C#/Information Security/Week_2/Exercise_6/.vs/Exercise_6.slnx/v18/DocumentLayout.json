@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workplace on Windows\\Weak_2\\Exercise_6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A17CDDC3-6C0E-300B-2752-3FDD0A1E25CB}|Exercise_6\\Exercise_6.csproj|c:\\workplace on windows\\weak_2\\exercise_6\\exercise_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17CDDC3-6C0E-300B-2752-3FDD0A1E25CB}|Exercise_6\\Exercise_6.csproj|solutionrelative:exercise_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17CDDC3-6C0E-300B-2752-3FDD0A1E25CB}|Exercise_6\\Exercise_6.csproj|c:\\workplace on windows\\weak_2\\exercise_6\\exercise_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A17CDDC3-6C0E-300B-2752-3FDD0A1E25CB}|Exercise_6\\Exercise_6.csproj|solutionrelative:exercise_6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_2\\Exercise_6\\Exercise_6\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise_6\\Form1.cs",
+              "ToolTip": "C:\\Workplace on Windows\\Weak_2\\Exercise_6\\Exercise_6\\Form1.cs",
+              "RelativeToolTip": "Exercise_6\\Form1.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T07:10:25.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_2\\Exercise_6\\Exercise_6\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise_6\\Form1.cs",
+              "ToolTip": "C:\\Workplace on Windows\\Weak_2\\Exercise_6\\Exercise_6\\Form1.cs [Design]",
+              "RelativeToolTip": "Exercise_6\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T07:05:10.705Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

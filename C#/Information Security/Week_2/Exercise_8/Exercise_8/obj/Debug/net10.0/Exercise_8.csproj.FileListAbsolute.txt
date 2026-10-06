@@ -1,0 +1,16 @@
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\bin\Debug\net10.0\Exercise_8.exe
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\bin\Debug\net10.0\Exercise_8.deps.json
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\bin\Debug\net10.0\Exercise_8.runtimeconfig.json
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\bin\Debug\net10.0\Exercise_8.dll
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\bin\Debug\net10.0\Exercise_8.pdb
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.AssemblyInfoInputs.cache
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.AssemblyInfo.cs
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.csproj.CoreCompileInputs.cache
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.sourcelink.json
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.dll
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\refint\Exercise_8.dll
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.pdb
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.genruntimeconfig.cache
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\ref\Exercise_8.dll
+C:\Workplace on Windows\Weak_2\Exercise_8\Exercise_8\obj\Debug\net10.0\Exercise_8.csproj.Up2Date

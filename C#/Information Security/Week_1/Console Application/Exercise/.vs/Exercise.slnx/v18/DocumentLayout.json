@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workplace on Windows\\Weak_1\\Console Application\\Exercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF170B78-A385-4ABD-887B-B252F17B08C2}|Exercise\\Exercise.csproj|c:\\workplace on windows\\weak_1\\console application\\exercise\\exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF170B78-A385-4ABD-887B-B252F17B08C2}|Exercise\\Exercise.csproj|solutionrelative:exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF170B78-A385-4ABD-887B-B252F17B08C2}|Exercise\\Exercise.csproj|c:\\workplace on windows\\weak_1\\console application\\exercise\\exercise\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF170B78-A385-4ABD-887B-B252F17B08C2}|Exercise\\Exercise.csproj|solutionrelative:exercise\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Function.cs",
+              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_1\\Console Application\\Exercise\\Exercise\\Function.cs",
+              "RelativeDocumentMoniker": "Exercise\\Function.cs",
+              "ToolTip": "C:\\Workplace on Windows\\Weak_1\\Console Application\\Exercise\\Exercise\\Function.cs",
+              "RelativeToolTip": "Exercise\\Function.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAAAB8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:40:56.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_1\\Console Application\\Exercise\\Exercise\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise\\Program.cs",
+              "ToolTip": "C:\\Workplace on Windows\\Weak_1\\Console Application\\Exercise\\Exercise\\Program.cs",
+              "RelativeToolTip": "Exercise\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T06:28:18.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

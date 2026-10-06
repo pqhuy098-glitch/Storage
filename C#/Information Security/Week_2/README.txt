@@ -1,0 +1,1 @@
+Each exercise is a solution; specifically for Exercises 2 and 9, every file created after encryption will be saved to the bin/Debug/net10.0 directory.

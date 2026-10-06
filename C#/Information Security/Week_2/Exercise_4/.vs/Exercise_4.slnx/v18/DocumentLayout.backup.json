@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workplace on Windows\\Weak_2\\Exercise_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91466CF0-0212-4876-888C-0BA765C58340}|Exercise_4\\Exercise_4.csproj|c:\\workplace on windows\\weak_2\\exercise_4\\exercise_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91466CF0-0212-4876-888C-0BA765C58340}|Exercise_4\\Exercise_4.csproj|solutionrelative:exercise_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_2\\Exercise_4\\Exercise_4\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise_4\\Program.cs",
+              "ToolTip": "C:\\Workplace on Windows\\Weak_2\\Exercise_4\\Exercise_4\\Program.cs",
+              "RelativeToolTip": "Exercise_4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T05:14:50.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

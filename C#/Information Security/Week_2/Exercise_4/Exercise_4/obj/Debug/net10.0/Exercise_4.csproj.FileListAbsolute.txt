@@ -1,0 +1,15 @@
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/bin/Debug/net10.0/Exercise_4
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/bin/Debug/net10.0/Exercise_4.deps.json
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/bin/Debug/net10.0/Exercise_4.runtimeconfig.json
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/bin/Debug/net10.0/Exercise_4.dll
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/bin/Debug/net10.0/Exercise_4.pdb
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.AssemblyInfoInputs.cache
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.AssemblyInfo.cs
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.csproj.CoreCompileInputs.cache
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.sourcelink.json
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.dll
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/refint/Exercise_4.dll
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.pdb
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/Exercise_4.genruntimeconfig.cache
+/mnt/425CA2E95CA2D6C7/Workplace on Windows/Weak_2/Exercise_4/Exercise_4/obj/Debug/net10.0/ref/Exercise_4.dll
