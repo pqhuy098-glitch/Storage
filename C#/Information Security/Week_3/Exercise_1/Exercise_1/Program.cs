@@ -316,4 +316,78 @@
 
         Console.WriteLine("Decrypt Output: " + PrintBytes(decryptedText));
     }
+
+    // private static byte[] AddPadding(byte[] data)
+    // {
+    //     int remainder = data.Length % 8;
+    //     int paddingLength = (remainder == 0) ? 8 : (8 - remainder);
+        
+    //     byte[] paddedData = new byte[data.Length + paddingLength];
+    //     Array.Copy(data, paddedData, data.Length);
+        
+    //     return paddedData;
+    // }
+
+    // private static byte[] RemovePadding(byte[] data)
+    // {
+    //     int newLength = data.Length;
+    //     while (newLength > 0 && data[newLength - 1] == 0x00)
+    //     {
+    //         newLength--;
+    //     }
+
+    //     byte[] originalData = new byte[newLength];
+    //     Array.Copy(data, originalData, newLength);
+    //     return originalData;
+    // }
+
+
+    // public static void EncryptFile(string inputPath, string outputPath, byte[] key)
+    // {
+    //     byte[] plainBytes = File.ReadAllBytes(inputPath);
+    //     byte[] paddedBytes = AddPadding(plainBytes);
+        
+    //     byte[][] encryptSchedule = new byte[16][6];
+    //     KeySchedule(key, encryptSchedule, ENCRYPT);
+
+    //     byte[] cipherBytes = new byte[paddedBytes.Length];
+
+    //     for (int i = 0; i < paddedBytes.Length; i += 8)
+    //     {
+    //         byte[] block = new byte[8];
+    //         Array.Copy(paddedBytes, i, block, 0, 8);
+
+    //         byte[] encryptedBlock = new byte[8];
+    //         Crypt(block, encryptedBlock, encryptSchedule); // Gọi hàm Crypt của bạn
+
+    //         Array.Copy(encryptedBlock, 0, cipherBytes, i, 8);
+    //     }
+
+    //     File.WriteAllBytes(outputPath, cipherBytes);
+    // }
+
+    // public static void DecryptFile(string inputPath, string outputPath, byte[] key)
+    // {
+    //     byte[] cipherBytes = File.ReadAllBytes(inputPath);
+        
+    //     byte[][] decryptSchedule = new byte[16][6];
+    //     KeySchedule(key, decryptSchedule, DECRYPT);
+
+    //     byte[] paddedPlainBytes = new byte[cipherBytes.Length];
+
+    //     for (int i = 0; i < cipherBytes.Length; i += 8)
+    //     {
+    //         byte[] block = new byte[8];
+    //         Array.Copy(cipherBytes, i, block, 0, 8);
+
+    //         byte[] decryptedBlock = new byte[8];
+    //         Crypt(block, decryptedBlock, decryptSchedule);
+
+    //         Array.Copy(decryptedBlock, 0, paddedPlainBytes, i, 8);
+    //     }
+
+
+    //     byte[] plainBytes = RemovePadding(paddedPlainBytes);
+    //     File.WriteAllBytes(outputPath, plainBytes);
+    // }
 }
