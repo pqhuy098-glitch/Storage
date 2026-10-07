@@ -301,27 +301,19 @@
     public static void Main(string[] args)
     {
         byte[] key = { 0x13, 0x34, 0x57, 0x79, 0x9b, 0xbc, 0xdf, 0xf1 };
-        byte[] plaintext = { 0x01, 0x23, 0x45, 0x67, 0x89, 0xab, 0xcd, 0xe7 };
+        byte[] cipherText = { 0x6e, 0x1f, 0x3d, 0xd0, 0x55, 0xbb, 0x82, 0xa1 };
 
-        byte[][] encryptSchedule = new byte[16][];
         byte[][] decryptSchedule = new byte[16][];
         for (int i = 0; i < 16; i++)
         {
-            encryptSchedule[i] = new byte[6];
             decryptSchedule[i] = new byte[6];
         }
 
-        byte[] cipherText = new byte[8];
         byte[] decryptedText = new byte[8];
 
-        KeySchedule(key, encryptSchedule, ENCRYPT);
-
-        Crypt(plaintext, cipherText, encryptSchedule);
-        Console.WriteLine("Encrypt Output: " + PrintBytes(cipherText));
-
         KeySchedule(key, decryptSchedule, DECRYPT);
-
         Crypt(cipherText, decryptedText, decryptSchedule);
+
         Console.WriteLine("Decrypt Output: " + PrintBytes(decryptedText));
     }
 }

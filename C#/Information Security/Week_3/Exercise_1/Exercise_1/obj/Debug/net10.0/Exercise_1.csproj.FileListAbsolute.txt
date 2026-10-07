@@ -1,16 +1,31 @@
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.AssemblyInfoInputs.cache
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.AssemblyInfo.cs
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.csproj.CoreCompileInputs.cache
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.sourcelink.json
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\bin\Debug\net10.0\Exercise_1.exe
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\bin\Debug\net10.0\Exercise_1.deps.json
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\bin\Debug\net10.0\Exercise_1.runtimeconfig.json
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\bin\Debug\net10.0\Exercise_1.dll
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\bin\Debug\net10.0\Exercise_1.pdb
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.dll
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\refint\Exercise_1.dll
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.pdb
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.genruntimeconfig.cache
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\ref\Exercise_1.dll
-C:\Workplace on Windows\Weak_3\Exercise_1\Exercise_1\obj\Debug\net10.0\Exercise_1.csproj.Up2Date
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.AssemblyInfoInputs.cache
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.AssemblyInfo.cs
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.csproj.CoreCompileInputs.cache
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.sourcelink.json
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.exe
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.deps.json
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.runtimeconfig.json
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.dll
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.pdb
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.dll
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/refint/Exercise_1.dll
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.pdb
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.genruntimeconfig.cache
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/ref/Exercise_1.dll
+C:/Workplace on Windows/Weak_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.csproj.Up2Date
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.deps.json
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.runtimeconfig.json
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.dll
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/bin/Debug/net10.0/Exercise_1.pdb
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.AssemblyInfoInputs.cache
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.AssemblyInfo.cs
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.csproj.CoreCompileInputs.cache
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.sourcelink.json
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.dll
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/refint/Exercise_1.dll
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.pdb
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/Exercise_1.genruntimeconfig.cache
+/home/huy/Storage/C#/Information Security/Week_3/Exercise_1/Exercise_1/obj/Debug/net10.0/ref/Exercise_1.dll
