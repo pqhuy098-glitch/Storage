@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace\\Information Security\\Week_3\\Exercise_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD61C395-FE38-416F-819F-FEEED4FB540E}|Exercise_2\\Exercise_2.csproj|c:\\workspace\\information security\\week_3\\exercise_2\\exercise_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD61C395-FE38-416F-819F-FEEED4FB540E}|Exercise_2\\Exercise_2.csproj|solutionrelative:exercise_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD61C395-FE38-416F-819F-FEEED4FB540E}|Exercise_2\\Exercise_2.csproj|c:\\workspace\\information security\\week_3\\exercise_2\\exercise_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD61C395-FE38-416F-819F-FEEED4FB540E}|Exercise_2\\Exercise_2.csproj|solutionrelative:exercise_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Workspace\\Information Security\\Week_3\\Exercise_2\\Exercise_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise_2\\Form1.cs",
+              "ToolTip": "C:\\Workspace\\Information Security\\Week_3\\Exercise_2\\Exercise_2\\Form1.cs [Design]*",
+              "RelativeToolTip": "Exercise_2\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T19:57:28.472Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAFUVAAAAAAAAAAArwGQVAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-07T20:25:36.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Workspace\\Information Security\\Week_3\\Exercise_2\\Exercise_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise_2\\Form1.cs",
+              "ToolTip": "C:\\Workspace\\Information Security\\Week_3\\Exercise_2\\Exercise_2\\Form1.cs*",
+              "RelativeToolTip": "Exercise_2\\Form1.cs*",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T19:58:04.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

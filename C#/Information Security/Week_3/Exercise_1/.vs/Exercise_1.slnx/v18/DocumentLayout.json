@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Workplace on Windows\\Weak_3\\Exercise_1\\",
+  "WorkspaceRootPath": "C:\\Workspace\\Information Security\\Week_3\\Exercise_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C608490-666A-D61C-5F41-A51E8CF17EA1}|Exercise_1\\Exercise_1.csproj|c:\\workplace on windows\\weak_3\\exercise_1\\exercise_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C608490-666A-D61C-5F41-A51E8CF17EA1}|Exercise_1\\Exercise_1.csproj|c:\\workspace\\information security\\week_3\\exercise_1\\exercise_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C608490-666A-D61C-5F41-A51E8CF17EA1}|Exercise_1\\Exercise_1.csproj|solutionrelative:exercise_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,27 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1762265540:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workplace on Windows\\Weak_3\\Exercise_1\\Exercise_1\\Program.cs",
+              "DocumentMoniker": "C:\\Workspace\\Information Security\\Week_3\\Exercise_1\\Exercise_1\\Program.cs",
               "RelativeDocumentMoniker": "Exercise_1\\Program.cs",
-              "ToolTip": "C:\\Workplace on Windows\\Weak_3\\Exercise_1\\Exercise_1\\Program.cs",
+              "ToolTip": "C:\\Workspace\\Information Security\\Week_3\\Exercise_1\\Exercise_1\\Program.cs",
               "RelativeToolTip": "Exercise_1\\Program.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAswMcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADYBAAAAAAAAAADwvyMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:21:26.072Z",
+              "WhenOpened": "2026-10-06T17:55:19.665Z",
               "EditorCaption": ""
             }
           ]

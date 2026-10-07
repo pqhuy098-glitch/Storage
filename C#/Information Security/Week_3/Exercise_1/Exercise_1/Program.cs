@@ -283,7 +283,7 @@
 
         IP(state, input);
 
-        for (idx = 0; idx < 15; ++idx)
+        for (idx = 0; idx < 16; ++idx)
         {
             t = state[1];
             state[1] = F(state[1], key[idx]) ^ state[0];

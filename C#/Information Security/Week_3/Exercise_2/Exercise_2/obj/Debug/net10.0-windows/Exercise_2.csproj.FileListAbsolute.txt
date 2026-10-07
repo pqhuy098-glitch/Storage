@@ -1,0 +1,17 @@
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\bin\Debug\net10.0-windows\Exercise_2.exe
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\bin\Debug\net10.0-windows\Exercise_2.dll
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.Form1.resources
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.csproj.GenerateResource.cache
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.AssemblyInfoInputs.cache
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.AssemblyInfo.cs
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.csproj.CoreCompileInputs.cache
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.dll
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\refint\Exercise_2.dll
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.pdb
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\bin\Debug\net10.0-windows\Exercise_2.deps.json
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\bin\Debug\net10.0-windows\Exercise_2.runtimeconfig.json
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\bin\Debug\net10.0-windows\Exercise_2.pdb
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.genruntimeconfig.cache
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\ref\Exercise_2.dll
+C:\Workspace\Information Security\Week_3\Exercise_2\Exercise_2\obj\Debug\net10.0-windows\Exercise_2.csproj.Up2Date
