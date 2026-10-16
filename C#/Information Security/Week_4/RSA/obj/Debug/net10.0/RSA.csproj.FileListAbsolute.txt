@@ -1,0 +1,15 @@
+/home/huy/Workspace/Week_4/RSA/bin/Debug/net10.0/RSA
+/home/huy/Workspace/Week_4/RSA/bin/Debug/net10.0/RSA.deps.json
+/home/huy/Workspace/Week_4/RSA/bin/Debug/net10.0/RSA.runtimeconfig.json
+/home/huy/Workspace/Week_4/RSA/bin/Debug/net10.0/RSA.dll
+/home/huy/Workspace/Week_4/RSA/bin/Debug/net10.0/RSA.pdb
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.AssemblyInfoInputs.cache
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.AssemblyInfo.cs
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.csproj.CoreCompileInputs.cache
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.sourcelink.json
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.dll
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/refint/RSA.dll
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.pdb
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/RSA.genruntimeconfig.cache
+/home/huy/Workspace/Week_4/RSA/obj/Debug/net10.0/ref/RSA.dll
