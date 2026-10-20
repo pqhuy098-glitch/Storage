@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mapsui="using:Mapsui.UI.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="OptiRoute.MainWindow"
+        Title="OptiRoute">
+    
+    <Grid ColumnDefinitions="1*, 2*">
+        <Border Grid.Column="0">
+            <Panel Background="Black">
+                <Grid ColumnDefinitions="5*, 1*" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+                    <TextBox Grid.Column="0" Watermark="Enter the address" Height="32"></TextBox>
+                    <Button Grid.Column="1" Height="32" Background="White" Foreground="Black">Search</Button>
+                </Grid>
+            </Panel>
+        </Border>
+
+        <Border Grid.Column="1" BorderThickness="20">
+            <Grid>
+                <mapsui:MapControl x:Name="Map" />
+            </Grid>
+        </Border>
+    </Grid>
+    
+</Window>
