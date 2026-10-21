@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj": {}
+    "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj": {}
   },
   "projects": {
-    "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj": {
+    "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+        "projectUniqueName": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
         "projectName": "OptiRoute",
-        "projectPath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+        "projectPath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
         "packagesPath": "/home/huy/.nuget/packages/",
-        "outputPath": "/home/huy/Workspace/OptiRoute/OptiRoute/obj/",
+        "outputPath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/huy/.nuget/NuGet/NuGet.Config"

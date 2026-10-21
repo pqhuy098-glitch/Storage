@@ -19,13 +19,12 @@ public class OsmGetCoordinate
         }
     }
 
-    public async Task<PlaceData?> GetCoordinatesFromAddressAsync(string address)
+    public async Task<TemporaryData?> GetCoordinatesFromAddressAsync(string address)
     {
         if (string.IsNullOrWhiteSpace(address)) return null;
 
         string searchQuery = $"{address}, Ho Chi Minh City";
-        string url = $"https://nominatim.openstreetmap.org/search?format=json&q={Uri.EscapeDataString(searchQuery)}&addressdetails=1&limit=1";
-
+        string url = $"https://nominatim.openstreetmap.org/search?format=jsonv2&q={Uri.EscapeDataString(searchQuery)}&addressdetails=1&limit=1";
 
         await Task.Delay(1000);
 
@@ -54,12 +53,29 @@ public class OsmGetCoordinate
                     ? n.GetString()!
                     : address;
 
-                return new PlaceData
+                long osmId = firstResult.TryGetProperty("osm_id", out var idProp) ? idProp.GetInt64() : 0;
+
+                string osmType = firstResult.TryGetProperty("osm_type", out var typeProp)
+                    ? typeProp.GetString() ?? "" 
+                    : "";
+
+                double south = 0;
+                double north = 0;
+                double west = 0; 
+                double east = 0;
+
+                return new TemporaryData
                 {
                     name = name,
                     address = displayName,
+                    longitude = lon,
                     latitude = lat,
-                    longitude = lon
+                    osmId = osmId,
+                    osmType = osmType,
+                    south = south, 
+                    north = north, 
+                    west = west, 
+                    east = east
                 };
             }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KayKrjKI14s=",
+  "dgSpecHash": "VWDUvkykEE8=",
   "success": true,
-  "projectFilePath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+  "projectFilePath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
   "expectedPackageFiles": [
     "/home/huy/.nuget/packages/avalonia/11.3.1/avalonia.11.3.1.nupkg.sha512",
     "/home/huy/.nuget/packages/avalonia.angle.windows.natives/2.1.25547.20250602/avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
@@ -57,9 +57,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Tmds.DBus.Protocol' 0.21.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-xrw6-gwf8-vvr9",
-      "projectPath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+      "projectPath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
       "warningLevel": 1,
-      "filePath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+      "filePath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
       "libraryId": "Tmds.DBus.Protocol",
       "targetGraphs": [
         "net10.0"
@@ -69,9 +69,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'OsmSharp.SQLServer 4.2.0.723' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+      "projectPath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
       "warningLevel": 1,
-      "filePath": "/home/huy/Workspace/OptiRoute/OptiRoute/OptiRoute.csproj",
+      "filePath": "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/OptiRoute.csproj",
       "libraryId": "OsmSharp.SQLServer",
       "targetGraphs": [
         "net10.0"

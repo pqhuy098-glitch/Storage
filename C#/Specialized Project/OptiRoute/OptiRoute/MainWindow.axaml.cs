@@ -9,18 +9,26 @@ using Mapsui.Styles;
 using Mapsui.Tiling;
 using Mapsui.Nts;
 using NetTopologySuite.Geometries;
+using System.Threading.Tasks;
 
 namespace OptiRoute;
 
 public partial class MainWindow : Window
 {
     private PlaceData[] placeData = Array.Empty<PlaceData>(); 
+    private string searchInput = "233 Bình Quới";
     public MainWindow()
     {
         InitializeComponent();
         LoadMap();
-        
-        SearchAddressExample();
+        _ = InitAsync();
+    }
+
+
+    private async Task InitAsync()
+    {
+        await LoadPlaceData();
+        await SearchAddressExample();
     }
 
     private void LoadMap()
@@ -41,39 +49,47 @@ public partial class MainWindow : Window
         Map.Map = map;
     }
 
-    private async void LoadPlaceData()
+    private async Task LoadPlaceData()
     {
         string path = "/home/huy/Workspace/OptiRoute/OptiRoute/Data/hcmc.osm.pbf";
         var osmLoadData = new OsmLoadData();
 
-        placeData = await osmLoadData.LoadData(path);
+        placeData = await osmLoadData.LoadDataFromFile(path);
 
         Console.WriteLine($"Loaded {placeData.Length} places");
-        Console.WriteLine($"The first place is {placeData[0].name}");
-        Console.WriteLine($"The first place is {placeData[0].address}");
+        // Console.WriteLine($"The first place is {placeData[0].name}");
+        // Console.WriteLine($"The first place is {placeData[0].address}");
+        Console.WriteLine($"List {searchInput} address:");
+        foreach (var p in placeData.Where(p => p.name.Contains(searchInput)))
+            Console.WriteLine($"{p.osmType} {p.osmId} {p.name} ({p.latitude}, {p.longitude})");
     } 
 
-    private async void SearchAddressExample()
+    private async Task SearchAddressExample()
     {
-        string searchInput = "Sân bay Tân Sơn Nhất";
+        // string searchInput = "Ga Sài Gòn, Phường Nhiêu Lộc, Hồ Chí Minh";
         Console.WriteLine($"Finding: {searchInput}...");
 
         var getCoordinate = new OsmGetCoordinate();
-        PlaceData? result = await getCoordinate.GetCoordinatesFromAddressAsync(searchInput);
+        TemporaryData? result = await getCoordinate.GetCoordinatesFromAddressAsync(searchInput);
 
         if (result != null)
         {
-            Console.WriteLine($"Find: {result.name}");
+            Console.WriteLine($"Found: {result.name}");
             Console.WriteLine($"Address: {result.address}");
             Console.WriteLine($"Latitude: {result.latitude}");
             Console.WriteLine($"Longitude: {result.longitude}");
+            Console.WriteLine($"OSM: {result.osmType} {result.osmId}");
             
             CenterMapToLocation(result.longitude, result.latitude);
             AddPinToMap(result.longitude, result.latitude, result.name);
+
+            Console.WriteLine("Checking the offline data...");
+            var checkData = new CheckData();
+            checkData.checkTheOfflineData(placeData, result);
         }
         else
         {
-            Console.WriteLine("Cannot find this address");
+            Console.WriteLine("Cannot found this address");
         }
     }
 
