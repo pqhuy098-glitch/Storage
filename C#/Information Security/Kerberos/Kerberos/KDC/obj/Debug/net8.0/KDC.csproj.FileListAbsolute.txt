@@ -1,0 +1,14 @@
+/home/huy/Workplace/Kerberos/KDC/bin/Debug/net8.0/KDC
+/home/huy/Workplace/Kerberos/KDC/bin/Debug/net8.0/KDC.deps.json
+/home/huy/Workplace/Kerberos/KDC/bin/Debug/net8.0/KDC.runtimeconfig.json
+/home/huy/Workplace/Kerberos/KDC/bin/Debug/net8.0/KDC.dll
+/home/huy/Workplace/Kerberos/KDC/bin/Debug/net8.0/KDC.pdb
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.AssemblyInfoInputs.cache
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.AssemblyInfo.cs
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.csproj.CoreCompileInputs.cache
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.dll
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/refint/KDC.dll
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.pdb
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/KDC.genruntimeconfig.cache
+/home/huy/Workplace/Kerberos/KDC/obj/Debug/net8.0/ref/KDC.dll

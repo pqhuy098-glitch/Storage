@@ -1,0 +1,14 @@
+/home/huy/Workplace/Kerberos/bin/Debug/net10.0/Kerberos
+/home/huy/Workplace/Kerberos/bin/Debug/net10.0/Kerberos.deps.json
+/home/huy/Workplace/Kerberos/bin/Debug/net10.0/Kerberos.runtimeconfig.json
+/home/huy/Workplace/Kerberos/bin/Debug/net10.0/Kerberos.dll
+/home/huy/Workplace/Kerberos/bin/Debug/net10.0/Kerberos.pdb
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.AssemblyInfoInputs.cache
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.AssemblyInfo.cs
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.csproj.CoreCompileInputs.cache
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.dll
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/refint/Kerberos.dll
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.pdb
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/Kerberos.genruntimeconfig.cache
+/home/huy/Workplace/Kerberos/obj/Debug/net10.0/ref/Kerberos.dll
