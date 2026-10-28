@@ -26,3 +26,18 @@
 /home/huy/Workplace/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.pdb
 /home/huy/Workplace/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.genruntimeconfig.cache
 /home/huy/Workplace/Kerberos/Kerberos/Server/obj/Debug/net10.0/ref/Server.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/bin/Debug/net10.0/Server
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/bin/Debug/net10.0/Server.deps.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/bin/Debug/net10.0/Server.runtimeconfig.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/bin/Debug/net10.0/Server.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/bin/Debug/net10.0/Server.pdb
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.AssemblyInfoInputs.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.AssemblyInfo.cs
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.csproj.CoreCompileInputs.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.sourcelink.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/refint/Server.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.pdb
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/Server.genruntimeconfig.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/Debug/net10.0/ref/Server.dll

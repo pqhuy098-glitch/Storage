@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/huy/Workplace/Kerberos/Kerberos/Server/Server.csproj",
+      "projectUniqueName": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "/home/huy/Workplace/Kerberos/Kerberos/Server/Server.csproj",
+      "projectPath": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/Server.csproj",
       "packagesPath": "/home/huy/.nuget/packages/",
-      "outputPath": "/home/huy/Workplace/Kerberos/Kerberos/Server/obj/",
+      "outputPath": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/huy/.nuget/NuGet/NuGet.Config"
