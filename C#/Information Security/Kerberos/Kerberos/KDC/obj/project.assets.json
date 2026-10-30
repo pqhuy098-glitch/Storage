@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/huy/Workplace/Kerberos/Kerberos/KDC/KDC.csproj",
+      "projectUniqueName": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/KDC.csproj",
       "projectName": "KDC",
-      "projectPath": "/home/huy/Workplace/Kerberos/Kerberos/KDC/KDC.csproj",
+      "projectPath": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/KDC.csproj",
       "packagesPath": "/home/huy/.nuget/packages/",
-      "outputPath": "/home/huy/Workplace/Kerberos/Kerberos/KDC/obj/",
+      "outputPath": "/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/huy/.nuget/NuGet/NuGet.Config"

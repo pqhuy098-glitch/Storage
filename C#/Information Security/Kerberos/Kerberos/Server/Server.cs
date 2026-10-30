@@ -48,6 +48,7 @@ public class Server
 
     private static void HandleApReq(string encryptedServiceTicket, string encryptedAuthenticator, StreamWriter writer)
     {
+        Console.WriteLine($"[SERVER] Received AP_REQ from Client");
         string decryptedTicket;
         try
         {

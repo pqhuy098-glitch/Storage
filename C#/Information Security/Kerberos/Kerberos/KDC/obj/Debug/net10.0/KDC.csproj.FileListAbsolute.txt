@@ -26,3 +26,18 @@
 /home/huy/Workplace/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.pdb
 /home/huy/Workplace/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.genruntimeconfig.cache
 /home/huy/Workplace/Kerberos/Kerberos/KDC/obj/Debug/net10.0/ref/KDC.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/bin/Debug/net10.0/KDC
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/bin/Debug/net10.0/KDC.deps.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/bin/Debug/net10.0/KDC.runtimeconfig.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/bin/Debug/net10.0/KDC.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/bin/Debug/net10.0/KDC.pdb
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.GeneratedMSBuildEditorConfig.editorconfig
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.AssemblyInfoInputs.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.AssemblyInfo.cs
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.csproj.CoreCompileInputs.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.sourcelink.json
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/refint/KDC.dll
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.pdb
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/KDC.genruntimeconfig.cache
+/home/huy/Storage/C#/Information Security/Kerberos/Kerberos/KDC/obj/Debug/net10.0/ref/KDC.dll
