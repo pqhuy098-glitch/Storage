@@ -44,7 +44,7 @@ public class OsmServices
                         && way.Id.HasValue 
                         && way.Nodes != null
                         && way.Tags != null 
-                        && way.Tags.ContainsKey("name"))
+                        && way.Tags.ContainsKey("highway"))
                     {
                         var validWayNodes = new List<long>(way.Nodes);
 
