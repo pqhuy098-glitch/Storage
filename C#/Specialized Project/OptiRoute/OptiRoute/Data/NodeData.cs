@@ -1,17 +1,17 @@
-public class PlaceData
+public class NodeData
 {
     public long osmId;
-    public string osmType;
+    public string osmType = "node";
     public string name = string.Empty;
-    public string address = string.Empty;
     public double longitude;
     public double latitude;
 
-    public PlaceData (){
+    public NodeData() {}
+
+    public NodeData (long osmId, string name, double longitude, double latitude)
+    {
         this.osmId = osmId;
-        this.osmType = osmType;
         this.name = name;
-        this.address = address;
         this.longitude = longitude;
         this.latitude = latitude;
     }

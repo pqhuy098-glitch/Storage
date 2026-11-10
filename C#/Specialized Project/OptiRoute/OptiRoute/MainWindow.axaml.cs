@@ -15,8 +15,15 @@ namespace OptiRoute;
 
 public partial class MainWindow : Window
 {
-    private PlaceData[] placeData = Array.Empty<PlaceData>(); 
-    private string searchInput = "233 Bình Quới";
+    private NodeData[] placeData = Array.Empty<NodeData>(); 
+    private WayData[] wayData = Array.Empty<WayData>();
+    private List<string> searchInputs = new List<string>
+    {
+        "233 Bình Quới",
+        "Chợ Bến Thành",
+        "Dinh Độc Lập"
+    };
+
     public MainWindow()
     {
         InitializeComponent();
@@ -24,18 +31,24 @@ public partial class MainWindow : Window
         _ = InitAsync();
     }
 
-
     private async Task InitAsync()
     {
-        await LoadPlaceData();
-        await SearchAddressExample();
+        try
+        {
+            await LoadPlaceData();
+            await SearchMultipleAddressesExample();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in InitAsync: {ex.Message}");
+            Console.WriteLine(ex.StackTrace);
+        }
     }
 
     private void LoadMap()
     {
         var longitude = 106.7009;
         var latitude = 10.7769;
-
         var map = new Map();
 
         map.Layers.Add(OpenStreetMap.CreateTileLayer());
@@ -51,45 +64,68 @@ public partial class MainWindow : Window
 
     private async Task LoadPlaceData()
     {
-        string path = "/home/huy/Workspace/OptiRoute/OptiRoute/Data/hcmc.osm.pbf";
-        var osmLoadData = new OsmLoadData();
+        string path = "/home/huy/Storage/C#/Specialized Project/OptiRoute/OptiRoute/Data/hcmc.osm.pbf";
+        var osmLoadData = new OsmServices();
+        var osmLoadResult = await osmLoadData.LoadDataFromFile(path);
 
-        placeData = await osmLoadData.LoadDataFromFile(path);
+        placeData = osmLoadResult.Node;
+        wayData = osmLoadResult.Way;
 
-        Console.WriteLine($"Loaded {placeData.Length} places");
-        // Console.WriteLine($"The first place is {placeData[0].name}");
-        // Console.WriteLine($"The first place is {placeData[0].address}");
-        Console.WriteLine($"List {searchInput} address:");
-        foreach (var p in placeData.Where(p => p.name.Contains(searchInput)))
-            Console.WriteLine($"{p.osmType} {p.osmId} {p.name} ({p.latitude}, {p.longitude})");
+        Console.WriteLine($"Loaded {placeData.Length} nodes and {wayData.Length} ways");
+
+        foreach (var query in searchInputs)
+        {
+            Console.WriteLine($"List {query} address:");
+
+            foreach (var n in placeData.Where(n => n.name.Contains(query, StringComparison.OrdinalIgnoreCase)))
+            {
+                Console.WriteLine($"-> {n.osmType} {n.osmId} {n.name} ({n.latitude}, {n.longitude})");
+            }
+                
+            foreach (var w in wayData.Where(w => w.name.Contains(query, StringComparison.OrdinalIgnoreCase)))
+            {
+                Console.WriteLine($"-> {w.osmType} {w.osmId} {w.name} ({w.latitude}, {w.longitude})");
+            }
+        }
     } 
 
-    private async Task SearchAddressExample()
+    private async Task SearchMultipleAddressesExample()
     {
-        // string searchInput = "Ga Sài Gòn, Phường Nhiêu Lộc, Hồ Chí Minh";
-        Console.WriteLine($"Finding: {searchInput}...");
+        Console.WriteLine($"-----Finding {searchInputs.Count} addresses...-----");
 
-        var getCoordinate = new OsmGetCoordinate();
-        TemporaryData? result = await getCoordinate.GetCoordinatesFromAddressAsync(searchInput);
+        var osmService = new OsmServices();
+        var mapUI = new MapUI(Map);
+        var allResults = new List<AddressData>();
 
-        if (result != null)
+        foreach (var query in searchInputs)
         {
-            Console.WriteLine($"Found: {result.name}");
-            Console.WriteLine($"Address: {result.address}");
-            Console.WriteLine($"Latitude: {result.latitude}");
-            Console.WriteLine($"Longitude: {result.longitude}");
-            Console.WriteLine($"OSM: {result.osmType} {result.osmId}");
-            
-            CenterMapToLocation(result.longitude, result.latitude);
-            AddPinToMap(result.longitude, result.latitude, result.name);
+            var results = await osmService.GetCoordinatesFromAddress(query);
 
-            Console.WriteLine("Checking the offline data...");
-            var checkData = new CheckData();
-            checkData.checkTheOfflineData(placeData, result);
+            if (results != null && results.Count > 0)
+            {
+                allResults.AddRange(results);
+            }
+        }
+
+        foreach (var result in allResults)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Found: {result.name} | OSM ID: {result.osmId}");
+            Console.WriteLine($"Coordinates: ({result.latitude}, {result.longitude})");
+            Console.ResetColor();
+
+            mapUI.AddPinToMap(result.longitude, result.latitude, result.name);
+
+            osmService.ResolveAndCollect(placeData, result);
+        }
+
+        if (allResults.Count > 0)
+        {
+            CenterMapToLocation(allResults[0].longitude, allResults[0].latitude);
         }
         else
         {
-            Console.WriteLine("Cannot found this address");
+            Console.WriteLine("Cannot find any of the requested addresses.");
         }
     }
 
@@ -102,37 +138,4 @@ public partial class MainWindow : Window
         Map.Map.Navigator.CenterOnAndZoomTo(centerPoint, zoomResolution);
     }
 
-    private void AddPinToMap(double longitude, double latitude, string label)
-    {
-        var lonLatMercator = SphericalMercator.FromLonLat(longitude, latitude);
-
-        var mPoint = new MPoint(lonLatMercator.x, lonLatMercator.y);
-        var feature = new PointFeature(mPoint);
-        feature["Label"] = label;
-
-        var pinStyle = new SymbolStyle
-        {
-            Fill = new Brush(Color.Red),
-            Outline = new Pen(Color.White, 2),
-            SymbolScale = 1.2,
-            SymbolType = SymbolType.Ellipse
-        };
-
-        feature.Styles.Add(pinStyle);
-
-        var pinLayer = new MemoryLayer
-        {
-            Features = new[] { feature },
-            Name = "PinsLayer"
-        };
-
-        var existingLayer = Map.Map.Layers.FirstOrDefault(l => l.Name == "PinsLayer");
-        if (existingLayer != null)
-        {
-            Map.Map.Layers.Remove(existingLayer);
-        }
-
-        Map.Map.Layers.Add(pinLayer);
-        Map.Map.Refresh();
-    }
 }
