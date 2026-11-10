@@ -15,7 +15,7 @@ namespace OptiRoute;
 
 public partial class MainWindow : Window
 {
-    private NodeData[] placeData = Array.Empty<NodeData>(); 
+    private NodeData[] nodeData = Array.Empty<NodeData>(); 
     private WayData[] wayData = Array.Empty<WayData>();
     private List<string> searchInputs = new List<string>
     {
@@ -23,6 +23,8 @@ public partial class MainWindow : Window
         "Chợ Bến Thành",
         "Dinh Độc Lập"
     };
+
+    private readonly RoadGraph _roadGraph = new();
 
     public MainWindow()
     {
@@ -68,16 +70,18 @@ public partial class MainWindow : Window
         var osmLoadData = new OsmServices();
         var osmLoadResult = await osmLoadData.LoadDataFromFile(path);
 
-        placeData = osmLoadResult.Node;
+        nodeData = osmLoadResult.Node;
         wayData = osmLoadResult.Way;
 
-        Console.WriteLine($"Loaded {placeData.Length} nodes and {wayData.Length} ways");
+        Console.WriteLine($"Loaded {nodeData.Length} nodes and {wayData.Length} ways");
+
+        _roadGraph.BuildGraph(nodeData, wayData);
 
         foreach (var query in searchInputs)
         {
             Console.WriteLine($"List {query} address:");
 
-            foreach (var n in placeData.Where(n => n.name.Contains(query, StringComparison.OrdinalIgnoreCase)))
+            foreach (var n in nodeData.Where(n => n.name.Contains(query, StringComparison.OrdinalIgnoreCase)))
             {
                 Console.WriteLine($"-> {n.osmType} {n.osmId} {n.name} ({n.latitude}, {n.longitude})");
             }
@@ -94,8 +98,11 @@ public partial class MainWindow : Window
         Console.WriteLine($"-----Finding {searchInputs.Count} addresses...-----");
 
         var osmService = new OsmServices();
+        var osmRouteManager = new OsmRouteManager();
         var mapUI = new MapUI(Map);
         var allResults = new List<AddressData>();
+
+        osmRouteManager.Clear();
 
         foreach (var query in searchInputs)
         {
@@ -116,8 +123,10 @@ public partial class MainWindow : Window
 
             mapUI.AddPinToMap(result.longitude, result.latitude, result.name);
 
-            osmService.ResolveAndCollect(placeData, result);
+            osmService.ResolveAndCollect(nodeData, result, osmRouteManager);
         }
+
+        Console.WriteLine($"Total stored waypoints for routing: {osmRouteManager.Waypoints.Count}");
 
         if (allResults.Count > 0)
         {

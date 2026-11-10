@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using OsmSharp;
 using OsmSharp.Streams;
 using System.Linq;
+using OptiRoute.Models;
 
 public class OsmServices
 {
@@ -187,35 +188,61 @@ public class OsmServices
         return addressList;
     }
 
-    public void ResolveAndCollect(IEnumerable<NodeData> placeList, AddressData? target)
+    public void ResolveAndCollect(IEnumerable<NodeData> nodeList, AddressData? target, OsmRouteManager routeManager)
     {
-        if (placeList == null || target == null) 
+        if (nodeList == null || target == null) 
         { 
-            Console.WriteLine("Data is null"); 
+            Console.WriteLine("Data or target is null"); 
             return; 
         }
 
-        var geoUtils = new GeoUtils();
-
-        var byId = placeList.FirstOrDefault(p => p.osmId == target.osmId && p.osmType == target.osmType);
+        var byId = nodeList.FirstOrDefault(p => p.osmId == target.osmId && p.osmType == target.osmType);
         if (byId != null) 
         { 
             Console.WriteLine($"[ID Match] Found offline match by OSM ID: {byId.name}"); 
-            Console.WriteLine($"Offline Coordinate: Lon {byId.longitude}, Lat {byId.latitude}");
-            Console.WriteLine($"Target Coordinate: Lon {target.longitude}, Lat {target.latitude}");
-            return; 
+                
+            var waypoint = new ResolvedWaypoint
+            {
+                QueryName = target.name,
+                TargetLongitude = target.longitude,
+                TargetLatitude = target.latitude,
+                ResolvedOsmId = byId.osmId,
+                ResolvedOsmType = byId.osmType,
+                ResolvedName = byId.name,
+                ResolvedLongitude = byId.longitude,
+                ResolvedLatitude = byId.latitude,
+                DistanceErrorMeters = 0,
+                IsExactIdMatch = true
+            };
+
+            routeManager?.AddWaypoint(waypoint);
+            return;
         }
 
-        var nearest = placeList
-            .Select(p => (p, d: geoUtils.HaversineMeters(p.latitude, p.longitude, target.latitude, target.longitude)))
+        var nearest = nodeList
+            .Select(p => (p, d: GeoUtils.HaversineMeters(p.latitude, p.longitude, target.latitude, target.longitude)))
             .OrderBy(x => x.d).FirstOrDefault();
-            
+                
         if (nearest.p != null)
         {
-            Console.WriteLine($"[Fallback Nearest] No exact OSM ID match found. Nearest offline entity: '{nearest.p.name}' (ID: {nearest.p.osmId})");
-            Console.WriteLine($"Distance from target ({target.name}): {nearest.d:F0} meters");
-            Console.WriteLine($"Target Coordinate: ({target.latitude}, {target.longitude})");
-            Console.WriteLine($"Offline Entity Coordinate: ({nearest.p.latitude}, {nearest.p.longitude})");
+            var matchedNode = nearest.p;
+            Console.WriteLine($"[Fallback Nearest] No exact ID match. Nearest: '{matchedNode.name}' (ID: {matchedNode.osmId}), Distance: {nearest.d:F0}m");
+
+            var waypoint = new ResolvedWaypoint
+            {
+                QueryName = target.name,
+                TargetLongitude = target.longitude,
+                TargetLatitude = target.latitude,
+                ResolvedOsmId = matchedNode.osmId,
+                ResolvedOsmType = matchedNode.osmType,
+                ResolvedName = matchedNode.name,
+                ResolvedLongitude = matchedNode.longitude,
+                ResolvedLatitude = matchedNode.latitude,
+                DistanceErrorMeters = nearest.d,
+                IsExactIdMatch = false
+            };
+
+            routeManager?.AddWaypoint(waypoint);
         }
         else
         {
