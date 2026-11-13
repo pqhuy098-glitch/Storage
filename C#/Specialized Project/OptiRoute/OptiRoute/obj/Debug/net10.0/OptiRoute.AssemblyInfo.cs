@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OptiRoute")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9a0b43b81d40ecd5795525325b009bd10fb16d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b77bf8cdcc25ac5ed7c72ade936bb7f8a3b8a16")]
 [assembly: System.Reflection.AssemblyProductAttribute("OptiRoute")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OptiRoute")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

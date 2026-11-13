@@ -14,7 +14,7 @@ public class OsmRouteManager
         if (!exists)
         {
             Waypoints.Add(waypoint);
-            System.Console.WriteLine($"[RouteManager] Stored waypoint: {waypoint.ResolvedName} | Match Type: {(waypoint.IsExactIdMatch ? "Exact ID" : "Fallback Nearest")} | Total: {Waypoints.Count}");
+            System.Console.WriteLine($"[RouteManager] Stored waypoint: {waypoint.ResolvedName} | Match Type: {(waypoint.IsExactIdMatch ? "Exact ID" : "Fallback Nearest")}");
         }
     }
 

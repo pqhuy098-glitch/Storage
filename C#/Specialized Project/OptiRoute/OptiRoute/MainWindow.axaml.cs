@@ -20,8 +20,10 @@ public partial class MainWindow : Window
     private List<string> searchInputs = new List<string>
     {
         "233 Bình Quới",
+        "Hẻm 233 Bình Quới",
         "Chợ Bến Thành",
-        "Dinh Độc Lập"
+        "Dinh Độc Lập",
+        "Landmark 81"
     };
 
     private readonly RoadGraph _roadGraph = new();
@@ -121,8 +123,6 @@ public partial class MainWindow : Window
             Console.WriteLine($"Coordinates: ({result.latitude}, {result.longitude})");
             Console.ResetColor();
 
-            mapUI.AddPinToMap(result.longitude, result.latitude, result.name);
-
             osmService.ResolveAndCollect(nodeData, result, osmRouteManager);
         }
 
@@ -130,6 +130,7 @@ public partial class MainWindow : Window
 
         if (allResults.Count > 0)
         {
+            mapUI.AddMultiplePinsToMap(allResults);
             CenterMapToLocation(allResults[0].longitude, allResults[0].latitude);
         }
         else

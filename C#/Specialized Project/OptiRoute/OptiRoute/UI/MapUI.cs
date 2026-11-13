@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Mapsui;
 using Mapsui.Layers;
@@ -13,27 +14,32 @@ public class MapUI
         _mapControl = mapControl;
     }
 
-    public void AddPinToMap(double longitude, double latitude, string label)
+    public void AddMultiplePinsToMap(List<AddressData> results)
     {
-        var lonLatMercator = Mapsui.Projections.SphericalMercator.FromLonLat(longitude, latitude);
+        var features = new List<IFeature>();
 
-        var mPoint = new MPoint(lonLatMercator.x, lonLatMercator.y);
-        var feature = new PointFeature(mPoint);
-        feature["Label"] = label;
-
-        var pinStyle = new SymbolStyle
+        foreach (var result in results)
         {
-            Fill = new Brush(Color.Red),
-            Outline = new Pen(Color.White, 2),
-            SymbolScale = 1.2,
-            SymbolType = SymbolType.Ellipse
-        };
+            var lonLatMercator = Mapsui.Projections.SphericalMercator.FromLonLat(result.longitude, result.latitude);
+            var mPoint = new MPoint(lonLatMercator.x, lonLatMercator.y);
+            var feature = new PointFeature(mPoint);
+            feature["Label"] = result.name;
 
-        feature.Styles.Add(pinStyle);
+            var pinStyle = new SymbolStyle
+            {
+                Fill = new Brush(Color.Red),
+                Outline = new Pen(Color.White, 2),
+                SymbolScale = 1.2,
+                SymbolType = SymbolType.Ellipse
+            };
+
+            feature.Styles.Add(pinStyle);
+            features.Add(feature);
+        }
 
         var pinLayer = new MemoryLayer
         {
-            Features = new[] { feature },
+            Features = features,
             Name = "PinsLayer"
         };
 
