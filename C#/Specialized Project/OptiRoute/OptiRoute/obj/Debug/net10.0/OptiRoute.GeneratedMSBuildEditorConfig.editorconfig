@@ -7,7 +7,23 @@ build_property.AvaloniaNameGeneratorFilterByNamespace = *
 build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
 build_property.AvaloniaNameGeneratorAttachDevTools = true
 build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
 build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.RuntimeIdentifier = 
+build_property.AppHostRuntimeIdentifier = ubuntu.26.04-x64
+build_property.DefaultAppHostRuntimeIdentifier = ubuntu.26.04-x64
+build_property.NETCoreSdkPortableRuntimeIdentifier = linux-x64
+build_property.IsTestProject = 
+build_property.AvaloniaMainPackageVersion = 11.3.1
+build_property.HasAvaloniaDiagnosticsSupport = 
+build_property.AvaloniaUseCompiledBindingsByDefault = false
+build_property._AvnB64ProjectAssetsFile = L2hvbWUvaHV5L1N0b3JhZ2UvQyMvU3BlY2lhbGl6ZWQgUHJvamVjdC9PcHRpUm91dGUvT3B0aVJvdXRlL29iai9wcm9qZWN0LmFzc2V0cy5qc29u
+build_property._AvnB64ProjectDepsFilePath = 
+build_property._AvnB64ProjectRuntimeConfigFilePath = 
+build_property._AvnB64IntermediateOutputPath = b2JqXERlYnVnL25ldDEwLjAv
+build_property._AvnB64PublishDir = YmluXERlYnVnL25ldDEwLjAvcHVibGlzaC8=
+build_property._AvnB64AvaloniaPreviewerNetCoreToolPath = L2hvbWUvaHV5Ly5udWdldC9wYWNrYWdlcy9hdmFsb25pYS8xMS4zLjEvYnVpbGRUcmFuc2l0aXZlLy8uLi90b29scy9uZXRzdGFuZGFyZDIuMC9kZXNpZ25lci9BdmFsb25pYS5EZXNpZ25lci5Ib3N0QXBwLmRsbA==
 build_property.TargetFrameworkVersion = v10.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
